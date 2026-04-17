@@ -27,6 +27,10 @@ app.get('/', (req, res) => {
         <h1>Welcome to Express on Vercel 🚀</h1>
         <p>This is a minimal example without a database or forms.</p>
         <img src="/logo.png" alt="Logo" width="120" />
+        <script>
+          window.si = window.si || function () { (window.siq = window.siq || []).push(arguments); };
+        </script>
+        <script defer src="/_vercel/speed-insights/script.js"></script>
       </body>
     </html>
   `)
